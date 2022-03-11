@@ -1,0 +1,12 @@
+.card:hover{
+    border: 5px solid lightblue;
+}
+.mt-sok{
+    margin-top: 5%;
+}
+.reszletek{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: white;
+}
