@@ -1,3 +1,6 @@
 .card:hover{
-    border: 5px solid orange;
+    border: 5px solid lightblue;
+}
+.mt-sok{
+    margin-top: 5%;
 }
