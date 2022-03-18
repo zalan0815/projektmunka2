@@ -6,7 +6,7 @@
 }
 
 .overlay {
-    position:absolute;
+    position:fixed;
     display:none;
     top:0;
     right:0;
@@ -17,22 +17,31 @@
 }
 .close {
     position:absolute;
-    top:-40px;
-    right:-5px;
+    top: 10px;
+    right: 10px;
     width:25px;
     height:25px;
     cursor:pointer;
-    color: #fff;
+    color: black;
     display: inline-block;
 }
 .popup {
-    position:absolute;
+    position:fixed;
     width:50%;
     height:50%;
     top:25%;
     left:25%;
     text-align:center;
     border-radius: 10px;
-    background:rgb(240,240,240);
+    background-color: white;
     box-shadow: 0px 0px 10px 0px black;
-        
+} 
+#adatok th {
+    text-align: right;
+}
+#adatok td {
+    text-align: left;
+}
+#kep {
+    height: 95%;
+}
