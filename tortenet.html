@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog and Bone Phone Shop</title>
     <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Navbar -->
@@ -40,27 +42,27 @@
   </nav>      
 </div>
 <!-- Kártyák -->
-<div class="row">
+<div class="row w-85 mx-auto">
   <div class="card col-md-4">
     <img src="images/történet/radió.jpg" class="card-img-top" alt="Rádiógyár" title="Rádiógyár">
       <div class="card-body">
         <h5 class="card-title">Kezdetek</h5>
       </div>
       <div class="card-body">
-        <a href="#kezdet"><button class="btn btn-primary">Több</button></a>
+        <a href="#kezdet"><button class="btn btn-primary" onclick="Megjelen()">Több</button></a>
         </div>
       </div>
     <div class="card col-md-4">
-      <img src="images/történet/telefongyár.jfif" class="kartyakep"  alt="Telefonszerviz" title="Telefonszerviz">
+      <img src="images/történet/telefongyár.jfif" class="card-img-top"  alt="Telefonszerviz" title="Telefonszerviz">
         <div class="card-body">
           <h5 class="card-title">1970-2000</h5>
         </div>
         <div class="card-body">
-          <a href="#1970"><button class="btn btn-primary">Több</button></a>
+          <a href="#1970"><button class="btn btn-primary" onclick="Megjelen2()">Több</button></a>
         </div>
       </div>
       <div class="card col-md-4">
-        <img src="images/történet/" class="kartyakep"  alt="Telefonszerviz" title="Telefonszerviz">
+        <img src="images/történet/telefonregi.png" class="card-img-top"  alt="Telefonszerviz" title="Telefonszerviz">
           <div class="card-body">
             <h5 class="card-title">2000-</h5>
           </div>
@@ -68,7 +70,22 @@
             <a href="#1970"><button class="btn btn-primary">Több</button></a>
           </div>
         </div>
-</div>      
+</div>
+<!-- Leírás vagy valami hasonló -->
+<div class="row mt-5 bg-dark rejt" id="megjelen1">
+  <div class="col-md-10 mx-auto bg-dark text-light">
+    Kapuinkat 1957 július 1-én nyitottuk meg Győrben.
+    A szabadságharc közben rengeteg versenytársunk üzlete megsemmisült vagy súlyos károkat szenvedett.
+    Ezen alkalmon kapva beszálltunk a piacra rádió szervízként.
+    Ilyenkor a tulajdonos Lord Tavifalu Zalán volt, aki kemény kézzel irányította a céget 2003-ig.
+  </div>
+</div>
+<div class="row mt-5 bg-dark rejt" id="megjelen2">
+  <div class="col-md-10 mx-auto bg-dark text-light">
+    1970 környékén a rádiók elkezdtek egyre kevesebb hasznos dolgot ellátni, ezért úgy döntöttünk, hogy inkább a telefonok irányába is ellátogatunk.
+    Ez olyan jól alakult, hogy nem csak Győrben, de az egész régióban a legjobb értékelést kaptuk szakmai tudás és ügyfélszolgálat téren.
+  </div>
+</div>
 <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 <script src="dog&bone.js"></script>
 </body>
