@@ -4,9 +4,35 @@
 .mt-sok{
     margin-top: 5%;
 }
-.reszletek{
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    background-color: white;
+
+.overlay {
+    position:absolute;
+    display:none;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:rgba(0, 0, 0, 0.8);
+    z-index:9999;
 }
+.close {
+    position:absolute;
+    top:-40px;
+    right:-5px;
+    width:25px;
+    height:25px;
+    cursor:pointer;
+    color: #fff;
+    display: inline-block;
+}
+.popup {
+    position:absolute;
+    width:50%;
+    height:50%;
+    top:25%;
+    left:25%;
+    text-align:center;
+    border-radius: 10px;
+    background:rgb(240,240,240);
+    box-shadow: 0px 0px 10px 0px black;
+        
