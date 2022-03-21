@@ -5,6 +5,9 @@
 .w-85{
     width: 85%;
 }
+.h-85{
+    height: 85%;
+}
 .relative{
     position: relative !important;
 }
