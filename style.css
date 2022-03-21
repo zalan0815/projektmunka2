@@ -8,5 +8,51 @@
 .relative{
     position: relative !important;
 }
+.card:hover{
+    border: 5px solid lightblue;
+}
+.mt-sok{
+    margin-top: 5%;
+}
 
+.overlay {
+    position:fixed;
+    display:none;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:rgba(0, 0, 0, 0.8);
+    z-index:9999;
+}
+.close {
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    width:25px;
+    height:25px;
+    cursor:pointer;
+    color: black;
+    display: inline-block;
+}
+.popup {
+    position:fixed;
+    width:50%;
+    height:50%;
+    top:25%;
+    left:25%;
+    text-align:center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px black;
+} 
+#adatok th {
+    text-align: right;
+}
+#adatok td {
+    text-align: left;
+}
+#kep {
+    height: 95%;
+}
 
