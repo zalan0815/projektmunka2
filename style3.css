@@ -5,3 +5,22 @@
 .rejt {
     display: none;
 }
+.bg-secondary {
+    background-color: rgb(35, 61, 77) !important;
+}
+a {
+    color: rgb(243, 222, 138);
+}
+a:hover {
+    color: rgb(45, 194, 189);
+} 
+.slidekep {
+    height: 500px;
+    width: 1000px !important;
+}
+.carousel {
+    margin: auto;
+}
+.mb-10 {
+    margin-bottom: 20rem;
+}

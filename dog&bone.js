@@ -45,3 +45,6 @@ function Megjelen() {
 function Megjelen2() {
   document.getElementById('megjelen2').style.display = "block";
 }
+function Megjelen3() {
+  document.getElementById('megjelen3').style.display = "block";
+}
