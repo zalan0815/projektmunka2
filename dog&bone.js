@@ -38,3 +38,10 @@ span2.onclick = function() {
   navbar.classList.add("d-flex");
   navbar.classList.remove("d-none");
 }
+
+function Megjelen() {
+  document.getElementById('megjelen1').style.display = "block";
+}
+function Megjelen2() {
+  document.getElementById('megjelen2').style.display = "block";
+}
