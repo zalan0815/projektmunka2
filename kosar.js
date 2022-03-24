@@ -1,28 +1,46 @@
-var termek = 0;
-
 function kosarba(a){
     if (a = "kosarba13") {
-        termek = 13;
+        localStorage.clear;
+        localStorage.setItem("kosar", 13);
+        console.log("kosarba")
+        console.log(localStorage.getItem("kosar"));
     }
     if (a = "kosarba13pro") {
-        termek  = 14;
+        localStorage.setItem("kosar", 14);
     }
     if (a = "kosarba13promax") {
-        termek = 15;
+        localStorage.setItem("kosar", 15);
     }
     if (a = "kosarba13mini") {
-        document.getElementById('kosar13mini').classList.remove('d-none');
-        document.getElementById('kosar13mini').classList.add('d-block');
+        localStorage.setItem("kosar", 12);
     }
 }
-function teszt(termek){
-    document.getElementById(termek).classList.remove('d-none');
-    document.getElementById(termek).classList.add('d-block');
+
+function teszt(){
+    console.log(localStorage.getItem("kosar"));
 }
 
-window.onload = show();
-
-function show(termek){
-    document.getElementById(termek).classList.remove('d-none');
-    document.getElementById(termek).classList.add('d-block');
+function kosarad() {
+    if(localStorage.getItem("kosar") == 13){
+        document.getElementById(13).classList.remove("d-none");
+        document.getElementById(13).classList.add("d-block");
+    }
+    // if(localStorage.getItem("kosar") == 14){
+    //     document.getElementById(14).classList.remove("d-none");
+    //     document.getElementById(14).classList.add("d-block");
+    // }
+    // if(localStorage.getItem("kosar") == 15){
+    //     document.getElementById(15).classList.remove("d-none");
+    //     document.getElementById(15).classList.add("d-block");
+    // }
+    if(localStorage.getItem("kosar") == 12){
+        document.getElementById(12).classList.remove("d-none");
+        document.getElementById(12).classList.add("d-block");
+    }
+        // else{
+        //     window.alert("A kosarad üres!")
+        // }
 }
+
+
+window.onload = kosarad;
