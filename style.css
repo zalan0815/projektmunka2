@@ -38,6 +38,16 @@
     color: black;
     display: inline-block;
 }
+.close2 {
+    position:absolute;
+    top: 40px;
+    right: 320px;
+    width:25px;
+    height:25px;
+    cursor:pointer;
+    color: black;
+    display: inline-block;
+}
 .popup {
     position:fixed;
     width:50%;
@@ -57,5 +67,14 @@
 #kep {
     height: 95%;
 }
-
+.vissza {
+    color: black;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+    .vissza:hover {
+        color: grey;
+    }
 
