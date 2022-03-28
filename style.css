@@ -73,18 +73,47 @@
     font-size: 25px;
     cursor: pointer;
 }
-    .vissza:hover {
-        color: grey;
-    }
+.vissza:hover {
+    color: grey;
+}
 .rounded-3 {
     border: 2px solid black;
     color: black;
     background-color: white;
 }
-    .rounded-3:hover {
-        background-color: lightgrey;
-    }
-    .rounded-3:active {
-        background-color: grey
-        ;
-    }
+.rounded-3:hover {
+    background-color: lightgrey;
+}
+.rounded-3:active {
+    background-color: grey
+    ;
+}
+.card-img-top {
+    height: 400px;
+    width: 100%;
+}
+.rejt {
+    display: none;
+}
+.bg-secondary {
+    background-color: rgb(35, 61, 77) !important;
+}
+a {
+    color: rgb(243, 222, 138);
+}
+a:hover {
+    color: rgb(45, 194, 189);
+} 
+.slidekep {
+    height: 500px;
+    width: 1000px !important;
+}
+.carousel {
+    margin: auto;
+}
+.mb-10 {
+    margin-bottom: 20rem;
+}
+.h-95 {
+    height: 95%;
+}
