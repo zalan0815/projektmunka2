@@ -25,6 +25,7 @@ function torles(a){
     document.getElementById(13).classList.remove("d-block");
     document.getElementById(13).classList.add("d-none");
     localStorage.setItem("kosar", 0);
+    location.reload();
 }
 
 function kosarad() {
@@ -55,6 +56,8 @@ function kosarad() {
     if(localStorage.getItem("kosar") == 0){
         document.getElementById(0).classList.remove("d-none");
         document.getElementById(0).classList.add("d-block");
+        document.getElementById('gomb').classList.remove("d-block");
+        document.getElementById('gomb').classList.add("d-none");
     }
 }
 
