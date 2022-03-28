@@ -15,6 +15,14 @@ function kosarba(a){
         localStorage.clear;
         localStorage.setItem("kosar", 12);
     }
+    if (a == "kosarbaairpods") {
+        localStorage.clear;
+        localStorage.setItem("kosar", 11);
+    }
+    if (a == "kosarbaapplewatch") {
+        localStorage.clear;
+        localStorage.setItem("kosar", 10);
+    }
 }
 
 function teszt(){
@@ -50,6 +58,18 @@ function kosarad() {
     if(localStorage.getItem("kosar") == 12){
         document.getElementById(12).classList.remove("d-none");
         document.getElementById(12).classList.add("d-block");
+        document.getElementById(0).classList.remove("d-block");
+        document.getElementById(0).classList.add("d-none");
+    }
+    if(localStorage.getItem("kosar") == 11){
+        document.getElementById(11).classList.remove("d-none");
+        document.getElementById(11).classList.add("d-block");
+        document.getElementById(0).classList.remove("d-block");
+        document.getElementById(0).classList.add("d-none");
+    }
+    if(localStorage.getItem("kosar") == 10){
+        document.getElementById(10).classList.remove("d-none");
+        document.getElementById(10).classList.add("d-block");
         document.getElementById(0).classList.remove("d-block");
         document.getElementById(0).classList.add("d-none");
     }
