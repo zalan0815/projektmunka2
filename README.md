@@ -5,7 +5,7 @@ ___________
 Az oldalunk egy telofonos bolt webshopja három márka telefonjaihoz és pár kiegészítőihez. Emellett egy telefon szervíz is megtalalhátó a boltban.
 _________
 ### A kövekezőket tartalmazza:
-- Főöldal
+- Főoldal
 - Történet oldal
 - Kosár
 _____________
