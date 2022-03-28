@@ -25,54 +25,30 @@ function kosarba(a){
         localStorage.setItem("kosar", 10);
     }
     // samsung
-    if (a == "s22") {
+    if (a == "kosarbas22") {
         localStorage.clear;
         localStorage.setItem("kosar", 22);
+        console.log(a);
     }
-    if (a == "s22u") {
+    if (a == "kosarbas22u") {
         localStorage.clear;
         localStorage.setItem("kosar", 23);
     }
-    if (a == "zfold") {
+    if (a == "kosarbazfold") {
         localStorage.clear;
         localStorage.setItem("kosar", 24);
     }
-    if (a == "zflip") {
+    if (a == "kosarbazflip") {
         localStorage.clear;
         localStorage.setItem("kosar", 25);
     }
-    if (a == "samsungwatch") {
+    if (a == "kosarbasamsungwatch") {
         localStorage.clear;
         localStorage.setItem("kosar", 21);
     }
-    if (a == "buds") {
+    if (a == "kosarbabuds") {
         localStorage.clear;
         localStorage.setItem("kosar", 20);
-    }
-    // xiaomi
-    if (a == "kosarba13") {
-        localStorage.clear;
-        localStorage.setItem("kosar", 13);
-    }
-    if (a == "kosarba13pro") {
-        localStorage.clear;
-        localStorage.setItem("kosar", 14);
-    }
-    if (a == "kosarba13promax") {
-        localStorage.clear;
-        localStorage.setItem("kosar", 15);
-    }
-    if (a == "kosarba13mini") {
-        localStorage.clear;
-        localStorage.setItem("kosar", 12);
-    }
-    if (a == "kosarbaairpods") {
-        localStorage.clear;
-        localStorage.setItem("kosar", 11);
-    }
-    if (a == "kosarbaapplewatch") {
-        localStorage.clear;
-        localStorage.setItem("kosar", 10);
     }
 }
 
@@ -137,6 +113,7 @@ function kosarad() {
         document.getElementById(22).classList.add("d-block");
         document.getElementById(0).classList.remove("d-block");
         document.getElementById(0).classList.add("d-none");
+        console.log(localStorage.getItem("kosar"))
     }
     if(localStorage.getItem("kosar") == 23){
         document.getElementById(23).classList.remove("d-none");
