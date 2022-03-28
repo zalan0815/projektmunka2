@@ -76,4 +76,15 @@
     .vissza:hover {
         color: grey;
     }
-
+.rounded-3 {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+    .rounded-3:hover {
+        background-color: lightgrey;
+    }
+    .rounded-3:active {
+        background-color: grey
+        ;
+    }
